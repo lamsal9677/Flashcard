@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 findViewById(R.id.FlashAns).setVisibility(View.VISIBLE);
                 findViewById(R.id.FlashQue).setVisibility(View.INVISIBLE);
+//                findViewById(R.id.FlashQue).setVisibility(View.INVISIBLE);
+
             }
         });
     }
